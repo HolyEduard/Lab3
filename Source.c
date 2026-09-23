@@ -7,7 +7,7 @@ int task1()
 	puts("введите число");
 	scanf_s("%d", &num);
 	scanf_s("%d", &num2);
-	printf("ñóììà: %d ðàçíîñòü: %d ïðîèçâåäåíèå: %d ÷àñòíîå: %d îñòàòîê: %d",num+num2,num - num2,num * num2,num2 / num,num2%num);
+	printf("сумма: %d разность: %d умножение: %d целое: %d остаток: %d",num+num2,num - num2,num * num2,num2 / num,num2%num);
 }
 int task2()
 {
@@ -18,11 +18,11 @@ int task2()
 	int dym;
 	float result;
 	float result2;
-	puts("ââåäèòå çíà÷åíèå äëÿ ðàñ÷åòà");
+	puts("введите значение для расчета");
 	scanf_s("%d", &dym);
 	result = D * dym;
 	result2 = ED * dym;
-	printf("%d äþéìîâ - ýòî %.1f ñì %d èñïàíñêèõ äþéìîâ - ýòî %.1f ñì", dym, result,dym,result2);
+	printf("%d миллей - это %.1f см %d испанских миллей - это %.1f см", dym, result,dym,result2);
 }
 int task2A()
 {
@@ -32,9 +32,9 @@ int task2A()
 	float SRUM = 7.468;
 	float GM = 7412.6;
 	int M;
-	puts("ââåäèòå çíà÷åíèå äëÿ ðàñ÷åòà");
+	puts("введите значение для расчета");
 	scanf_s("%d", &M);
-	printf("ìîðñêàÿ ìèëÿ = %f êì\nñóõîïóòíàÿ ìèëÿ = %f êì\nðèìñêàÿ ìèëÿ = %f êì\nñòàðîðóññêàÿ ìèëÿ = %f êì\nãåîãðàôè÷åñêàÿ ìèëÿ = %f êì", (M * MM) / 1000, (M * SM), (M * RM) / 1000, M * SRUM, M * GM);
+	printf("морские милли = %f см сухопутные милли = %f см римские милли = %f см старые русские милли = %f см географические милли = %f см", (M * MM) / 1000, (M * SM), (M * RM) / 1000, M * SRUM, M * GM);
 
 
 }
@@ -42,7 +42,7 @@ int task3()
 {
 	int a;
 	int b;
-	puts("ââåäèòå 2 ÷èñëà");
+	puts("введите 2 числа");
 	scanf_s("%d", &a);
 	scanf_s("%d", &b);
 	puts("_________________________________________________\n"

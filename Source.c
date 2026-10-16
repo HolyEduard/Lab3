@@ -5,8 +5,8 @@ int task1()
 	int num;
 	int num2;
 	puts("введите число");
-	scanf_s("%d", &num);
-	scanf_s("%d", &num2);
+	scanf("%d", &num);
+	scanf("%d", &num2);
 	printf("сумма: %d разность: %d умножение: %d целое: %d остаток: %d",num+num2,num - num2,num * num2,num2 / num,num2%num);
 }
 int task2()
@@ -19,7 +19,7 @@ int task2()
 	float result;
 	float result2;
 	puts("введите значение для расчета");
-	scanf_s("%d", &dym);
+	scanf("%d", &dym);
 	result = D * dym;
 	result2 = ED * dym;
 	printf("%d миллей - это %.1f см %d испанских миллей - это %.1f см", dym, result,dym,result2);
@@ -33,7 +33,7 @@ int task2A()
 	float GM = 7412.6;
 	int M;
 	puts("введите значение для расчета");
-	scanf_s("%d", &M);
+	scanf("%d", &M);
 	printf("морские милли = %f см сухопутные милли = %f см римские милли = %f см старые русские милли = %f см географические милли = %f см", (M * MM) / 1000, (M * SM), (M * RM) / 1000, M * SRUM, M * GM);
 
 
@@ -43,8 +43,8 @@ int task3()
 	int a;
 	int b;
 	puts("введите 2 числа");
-	scanf_s("%d", &a);
-	scanf_s("%d", &b);
+	scanf("%d", &a);
+	scanf("%d", &b);
 	puts("_________________________________________________\n"
 		"|    a    *    b|    a    +    b|    a    -    b|\n"
 	     "_________________________________________________\n");
